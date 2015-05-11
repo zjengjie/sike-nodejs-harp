@@ -1,0 +1,15 @@
+{
+  "name": "mini-harp",
+  "version": "1.0.0",
+  "description": "Mini Harp Static Server",
+  "main": "index.js",
+  "bin": "bin/mini-harp.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "zengjie",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "^3.3.5"
+  }
+}

@@ -11,6 +11,12 @@
   "license": "MIT",
   "dependencies": {
     "connect": "^3.3.5",
+    "jade": "^1.9.2",
     "serve-static": "^1.9.2"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4",
+    "supertest": "^0.15.0"
   }
 }

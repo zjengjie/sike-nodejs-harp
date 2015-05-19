@@ -12,9 +12,9 @@ module.exports = function(root) {
 	});
 	app.use(function (req, res, next) {
 		var ext = path.extname(req.url);
-		if (ext == '.jade' || ext == '.html') {
+		if (ext == '.jade' || ext == '.less') {
 			res.statusCode = 404;
-			res.end();
+			return res.end();
 		}
 		next();
 	})

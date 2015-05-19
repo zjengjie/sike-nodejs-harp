@@ -10,7 +10,7 @@ module.exports = function(root) {
 		next();
 	});
 	app.use(function (req, res, next) {
-		if (req.url.endWith('.jade' || req.url.endWidth('.html'))) {
+		if (req.url.endWith('.jade') || req.url.endWidth('.html')) {
 			res.statusCode = 404;
 			req.end();
 		}

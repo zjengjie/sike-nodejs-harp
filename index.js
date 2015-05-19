@@ -14,7 +14,7 @@ module.exports = function(root) {
 		var ext = path.extname(req.url);
 		if (ext == '.jade' || ext == '.html') {
 			res.statusCode = 404;
-			req.end();
+			res.end();
 		}
 		next();
 	})
